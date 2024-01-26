@@ -1,0 +1,74 @@
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+ }
+body 
+{   font-family: Calibri,sans-serif;
+    line-height: 1.6;
+    background-color: #f8f7fc;
+    color: #520290;
+}
+
+header {
+    background-color: #61137b;
+    /* 5 roxo para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+  
+nav ul {list-style: none;}
+nav ul li {display: inline;
+    margin-right: 20px;}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+main {
+    padding: 20px;
+    background-color: #f8f7fc;
+    
+}        
+section {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #b8b8b8;
+}
+section#sobre img{
+   height: 30vh;
+}
+section#trabalho img{
+   height: 30vh;
+}
+
+
+footer {
+    background-color: #61137b;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.banner {
+    background-image: url("../img/Campo_de_lavanda_em_flor.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    height:70vh ;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
